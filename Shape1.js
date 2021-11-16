@@ -102,22 +102,27 @@ var LegLongDown = svg.append("rect")
                  .style("fill", "black");
 var LegBentDown = svg.append("rect")
                  .attr("x", "-119")
-                 .attr("y", "450")
+                 .attr("y", "430")
                  .attr("width", "25")
-                 .attr("height", "77")
+                 .attr("height", "97")
                  .attr("rx", 10)
                  .attr("ry", 10)
                  .attr("transform", "rotate(-47)")
                  .style("fill", "black");
 var LegBentUp = svg.append("rect")
-                 .attr("x", "-460")
-                 .attr("y", "-143")
+                 .attr("x", "-445")
+                 .attr("y", "-139")
                  .attr("width", "25")
                  .attr("height", "105")
                  .attr("rx", 10)
                  .attr("ry", 10)
                  .attr("transform", "rotate(-140)")
                  .style("fill", "black");
+var RestOfTheLegPart = svg.append("rect")
+                          .attr("x", "300")
+                          .attr("y", "300")
+                          .attr("width", "112")
+                          .attr("height", "50")
 
 
 
