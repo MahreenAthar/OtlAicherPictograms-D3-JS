@@ -91,7 +91,7 @@ var rightArmUp = svg.append("rect")
                  .attr("transform", "rotate(137)")
                  .style("fill", "black");
 
-// Leg
+// Legs Down Part
 var LegLongDown = svg.append("rect")
                  .attr("x", "300")
                  .attr("y", "320")
@@ -118,6 +118,8 @@ var LegBentUp = svg.append("rect")
                  .attr("ry", 10)
                  .attr("transform", "rotate(-140)")
                  .style("fill", "black");
+
+// Legs Up Part                 
 var RestOfTheLegPart = svg.append("rect")
                           .attr("x", "300")
                           .attr("y", "300")
