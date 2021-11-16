@@ -81,16 +81,22 @@ var armR1 = svg.append("rect")
                .attr("transform", "rotate(90)")
                .attr("fill", "black")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Frock Female
+var Frock1 = svg.append("rect")
+               .attr("height", "140")
+               .attr("width", "5")
+               .attr("x", "315")
+               .attr("y", "-390")
+               .attr("rx", "10")
+               .attr("ry", "10")
+               .attr("transform", "rotate(90)")
+               .attr("fill", "black")
+var Frock2 = svg.append("rect")
+               .attr("height", "210")
+               .attr("width", "5")
+               .attr("x", "-96")
+               .attr("y", "-494")
+               .attr("rx", "10")
+               .attr("ry", "10")
+               .attr("transform", "rotate(140)")
+               .attr("fill", "black")
