@@ -31,11 +31,11 @@ var handle = svg.append("rect")
                  .attr("y", -70)
                  .attr("transform", "rotate(35)")
                  .attr("fill", "black");
-var handle = svg.append("rect")
-                 .attr("height",120)
+var handleUp = svg.append("rect")
+                 .attr("height",100)
                  .attr("width",2)
                  .attr("x", 335)
-                 .attr("y", 30)
+                 .attr("y", 50)
                  .attr("fill", "black");
 
 // Head
@@ -147,6 +147,12 @@ var wheelBack = svg.append("circle")
                     .attr("fill", "white")
                     .attr("stroke", "black")
                     .attr("stroke-width","3");
+var Arc = svg.append("rect")
+              .attr("height",120)
+              .attr("width",235)
+              .attr("x", 363)
+              .attr("y", 510)
+              .attr("fill", "white");
 
 
 
