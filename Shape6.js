@@ -1,3 +1,7 @@
+// Mahreen Athar
+// 19I-1712
+// BS(DS-N)
+
 var w = 680;
 var h = 680;
 var svg = d3.select("body").append("svg")
