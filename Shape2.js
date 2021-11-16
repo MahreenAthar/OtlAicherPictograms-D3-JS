@@ -85,8 +85,8 @@ var Arm = svg.append("rect")
                  .attr("transform", "rotate(90)")
                  .style("fill", "black");
 var ArmUp = svg.append("rect")
-                 .attr("x", -162)
-                 .attr("y", "-429")
+                 .attr("x", -160)
+                 .attr("y", "-427")
                  .attr("width", "25")
                  .attr("height", "115")
                  .attr("rx", 10)
@@ -138,3 +138,22 @@ var HideEdge = svg.append("rect")
               .attr("y", -60)
               .attr("transform", "rotate(38)")
               .attr("fill", "white");
+
+// Second wheel of cycle
+var wheelBack = svg.append("circle")
+                    .attr("r", 110)
+                    .attr("cx", 480)
+                    .attr("cy", 510)
+                    .attr("fill", "white")
+                    .attr("stroke", "black")
+                    .attr("stroke-width","3");
+
+
+
+
+
+
+
+
+
+              
