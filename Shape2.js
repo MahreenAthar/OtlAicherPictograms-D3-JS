@@ -93,3 +93,42 @@ var ArmUp = svg.append("rect")
                  .attr("ry", 10)
                  .attr("transform", "rotate(137)")
                  .style("fill", "black");
+
+
+// Leg
+var LegLongHor1 = svg.append("rect")
+                 .attr("x", "330")
+                 .attr("y", "-480")
+                 .attr("width", "25")
+                 .attr("height", "120")
+                 .attr("rx", 10)
+                 .attr("ry", 10)
+                 .attr("transform", "rotate(90)")
+                 .style("fill", "black");
+var LegLongHor2 = svg.append("rect")
+                 .attr("x", "370")
+                 .attr("y", "-520")
+                 .attr("width", "25")
+                 .attr("height", "120")
+                 .attr("rx", 10)
+                 .attr("ry", 10)
+                 .attr("transform", "rotate(90)")
+                 .style("fill", "black");
+var LegLongDown1 = svg.append("rect")
+                 .attr("x", "545")
+                 .attr("y", "-75")
+                 .attr("width", "25")
+                 .attr("height", "120")
+                 .attr("rx", 10)
+                 .attr("ry", 10)
+                 .attr("transform", "rotate(50)")
+                 .style("fill", "black");
+var LegLongDown2 = svg.append("rect")
+                 .attr("x", "545")
+                 .attr("y", "-75")
+                 .attr("width", "25")
+                 .attr("height", "120")
+                 .attr("rx", 10)
+                 .attr("ry", 10)
+                 .attr("transform", "rotate(50)")
+                 .style("fill", "black");
