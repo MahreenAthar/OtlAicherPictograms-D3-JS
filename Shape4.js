@@ -6,9 +6,15 @@ var svg = d3.select("body").append("svg")
 
 // Head Male
 var headM = svg.append("circle")
-               .attr("r", "40")
+               .attr("r", "38")
                .attr("cx", "210")
-               .attr("cy", "60")
+               .attr("cy", "65")
+               .attr("fill", "black")
+// Head Female
+var headM = svg.append("circle")
+               .attr("r", "38")
+               .attr("cx", "310")
+               .attr("cy", "70")
                .attr("fill", "black")
 
 // Body Male
@@ -100,3 +106,33 @@ var Frock2 = svg.append("rect")
                .attr("ry", "10")
                .attr("transform", "rotate(140)")
                .attr("fill", "black")
+
+// Legs Female
+var legF = svg.append("rect")
+               .attr("height", "185")
+               .attr("width", "25")
+               .attr("x", "307")
+               .attr("y", "315")
+               .attr("rx", "10")
+               .attr("ry", "10")
+var legBentF = svg.append("rect")
+               .attr("height", "110")
+               .attr("width", "25")
+               .attr("x", "-123")
+               .attr("y", "510")
+               .attr("rx", "10")
+               .attr("ry", "10")
+               .attr("transform", "rotate(-50)")
+
+
+
+
+
+
+
+
+
+
+
+
+
